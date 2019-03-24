@@ -4,5 +4,6 @@ class test
 	{
 		System.out.println("Hello world!!");
 		System.out.println("Update:1");
+		System.out.println("Update:2");
 	}
 }
