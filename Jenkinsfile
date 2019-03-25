@@ -3,8 +3,8 @@ pipeline {
 	stages {
 		stage('Build') {
 			steps {
-				javac test.java
-				jar -cvmf 'test-manifest.mf test.jar test.class'
+				sh 'javac test.java'
+				sh 'jar -cvmf test-manifest.mf test.jar test.class'
 				archiveArtifacts artifacts: 'test.jar' 	
 			}
 		}
