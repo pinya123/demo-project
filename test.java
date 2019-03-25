@@ -8,5 +8,6 @@ class test
 		System.out.println("Update:3 & 4");
 		System.out.println("Update:5");
 		System.out.println("Update:6");
+		System.out.println("Update:7");
 	}
 }
